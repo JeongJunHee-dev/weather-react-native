@@ -1,0 +1,15 @@
+1. 반드시 expo 설치 해야함 안그러면 안돌아감
+2. 노드버전은 너무 최신은 충돌 날수있으니 선호 버전 설치 (최신 노노)
+3. yarn 설치
+
+vs코드 켜서 명령어 하나는 노드 모드 하나는 무조건 파워셀 모드 켜면 작업 개꿀
+
+파워셀 모드 들어가서 해당 파일 디렉터리 찍고
+
+1. expo install expo-location
+2. expo install @react-native-community/picker (이거 없음 셀렉 기능 안댐 반드시 필)
+3. yarn add -D react-native-dotenv (보안 관련임) API키값 비활성화
+
+vs 구동시 노드 명령어에 npm start 혹은 yarn run start (yarn 설치 되었다면) 입력 후 큐알에 카메라 들이대면 
+*(엑스포 구동후 반드시 카메라 옵션 들어 가야 함) 기능 구현 댐
+
